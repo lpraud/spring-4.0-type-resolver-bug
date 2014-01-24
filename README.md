@@ -1,6 +1,8 @@
 Spring 4.0 TypeResolver regression bug
 ===
 
+@see https://jira.springsource.org/browse/SPR-11354 : Regression from 3.2.x for FormattingConversionService.addFormatterForFieldType
+
 How to test ?
 
 * <code>git clone</code> the repository
