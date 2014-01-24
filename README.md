@@ -12,8 +12,8 @@ but the module _spring-4.0-failing-test_ will _FAIL_ with :
 
 <pre>
 Running org.springframework.format.support.SpringGenericTypeResolverTest
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.081 sec <<< FAILURE!
-testType(org.springframework.format.support.SpringGenericTypeResolverTest)  Time elapsed: 0.045 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.081 sec : FAILURE!
+testType(org.springframework.format.support.SpringGenericTypeResolverTest)  Time elapsed: 0.045 sec  : ERROR!
 java.lang.IllegalArgumentException: Type must not be null
 	at org.springframework.util.Assert.notNull(Assert.java:112)
 	at org.springframework.core.convert.TypeDescriptor.valueOf(TypeDescriptor.java:507)
